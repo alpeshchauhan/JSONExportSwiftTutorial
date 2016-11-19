@@ -1,0 +1,17 @@
+{
+   "response":{
+      "status":"1",
+      "data":[
+         {
+            "user_id":"540",
+            "email":"hornero@hornero.com",
+            "full_name":"Pizzeria El Hornero",
+            "profile_image":"1471682705.jpg",
+            "cover_image":"1471682705.jpg",
+            "is_active":"1",
+            "parent_mid":"0"
+         }
+      ],
+      "message":"Login successfully"
+   }
+}

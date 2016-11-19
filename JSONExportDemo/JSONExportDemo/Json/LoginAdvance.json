@@ -1,0 +1,67 @@
+{
+   "response":{
+      "status":"1",
+      "data":[
+         {
+            "user_id":"540",
+            "email":"hornero@hornero.com",
+            "full_name":"Pizzeria El Hornero",
+            "profile_image":"1471682705.jpg",
+            "cover_image":"1471682705.jpg",
+            "is_active":"1",
+            "parent_mid":"0"
+         }
+      ],
+      "nextStart":"",
+      "totalRecord":"1",
+      "queryString":"select u.user_id,u.email,u.full_name,u.profile_image,u.cover_image,mm.is_active,mm.parent_mid from user_master  as u LEFT JOIN merchant_master as mm ON mm.user_id = u.user_id where u.email = \"hornero@hornero.com\" AND u.password = \"bWFzbWFzaG9ybmVybw==\" AND u.ur_id=2 AND mm.merchant_role_id != 0 AND mm.is_deleted != \"1\"  ",
+      "parent_mid":"0",
+      "m_id":"308",
+      "user_id":"540",
+      "premium_member":1,
+      "allowed_users":4,
+      "allowed_deals":10,
+      "allowed_locations":"100",
+      "plan_id":"2",
+      "role_name":"Admin",
+      "users_created":"3",
+      "deals_created":"13",
+      "location_created":"68",
+      "branches":{
+         "activity_name":"branches",
+         "can_view":"1",
+         "can_add":"1",
+         "can_update":"1",
+         "can_delete":"1"
+      },
+      "scanner":{
+         "activity_name":"scanner",
+         "can_view":"1",
+         "can_add":"1",
+         "can_update":"1",
+         "can_delete":"1"
+      },
+      "deals":{
+         "activity_name":"deals",
+         "can_view":"1",
+         "can_add":"1",
+         "can_update":"1",
+         "can_delete":"1"
+      },
+      "users":{
+         "activity_name":"users",
+         "can_view":"1",
+         "can_add":"1",
+         "can_update":"1",
+         "can_delete":"1"
+      },
+      "roles":{
+         "activity_name":"roles",
+         "can_view":"1",
+         "can_add":"1",
+         "can_update":"1",
+         "can_delete":"1"
+      },
+      "message":"Login successfully"
+   }
+}
